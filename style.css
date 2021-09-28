@@ -23,6 +23,17 @@ h1{color:grey;font-family:verdana}
 .input-group{
     display: flex;
     justify-content: space-between;
-    width: 360px;
+    width: 290px;
     padding: 10px 40px;
+    align-items: center;
+    text-align: justify;
+}
+
+label{
+    font-weight: bold;
+}
+
+footer {
+    font-size: 18px;
+    margin-top: 40px;
 }
