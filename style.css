@@ -5,7 +5,7 @@ h1{color:grey;font-family:verdana}
     background-color: white;
     color: black;
     width: 500px;
-    height: 300px;
+    height: 380px;
     padding: 10px 30px;
     border-radius: 25px;
     margin: auto;
@@ -36,4 +36,8 @@ label{
 footer {
     font-size: 18px;
     margin-top: 40px;
+}
+
+.result{
+    height: 85px;
 }
