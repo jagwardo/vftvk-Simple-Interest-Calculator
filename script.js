@@ -22,4 +22,7 @@ function updateRate()
     document.getElementById("rate_val").innerText=rateval;
 }
 
-document.getElementById("rate").addEventListener('onchange', updateRate);
+var rangeInput = document.getElementById("rate");
+if(rangeInput){
+    rangeInput.addEventListener('onchange', updateRate);
+}
