@@ -9,10 +9,10 @@ function compute()
 
 }
 
-function updateRate(event) 
+function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
 
-rate.addEventListener('onchange', updateRate(event))
+rate.addEventListener('onchange', updateRate())
