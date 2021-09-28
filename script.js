@@ -21,4 +21,4 @@ function updateRate()
     document.getElementById("rate_val").innerText=rateval;
 }
 
-rate.addEventListener('onchange', updateRate);
+document.getElementById("rate").addEventListener('onchange', updateRate());
