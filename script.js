@@ -24,5 +24,6 @@ function updateRate()
 
 var rangeInput = document.getElementById("rate");
 if(rangeInput){
-    rangeInput.addEventListener('onchange', updateRate);
+    rangeInput.addEventListener('onchange', updateRate());
+    rangeInput.addEventListener('oninput', updateRate());
 }
