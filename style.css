@@ -22,4 +22,7 @@ h1{color:grey;font-family:verdana}
 
 .input-group{
     display: flex;
+    justify-content: space-between;
+    width: 360px;
+    padding: 10px 40px;
 }
